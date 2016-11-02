@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Griff Hall - WhoIsHostingThis - blog 2</title>
+    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../css/flexslider.css" rel="stylesheet" >
+    <link href="../css/styles.css" rel="stylesheet">
+    <link href="../css/queries.css" rel="stylesheet">
+    <link href="../css/animate.css" rel="stylesheet">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+  </head>
+  <body id="top">
+
+    <div class="ignite-cta text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <a href="../index.html" class="ignite-btn">Head Back Home</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="intro text-center section-padding" id="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 wp1">
+            <h1 class="arrow">WhoIsHostingThis Homepage</h1>
+            <p><a href="http://www.whoishostingthis.com" target="_blank">WhoIsHostingThis</a> is a site where you can read honest reviews of hosting providers by real people.  You can also use their search function to find out who is hosting any particular website on the web.  It is a great tool for users to compare hosting providers and read about other peoples' experiences with those companies.  They also have a fantastic <a href="http://www.whoishostingthis.com/blog/" target="_blank">blog</a> covering a variety of subjects pertaining to web development and innovative technologies.  Below is a view of their current homepage followed by a few slight adjustments that I feel could help the site's usability.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+            <img src="../img/whois3.png" class="img-responsive" alt="signup wireframe">
+        </div>
+      </div>
+    </div>
+
+    <section class="intro text-center section-padding" id="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 wp1">
+            <h1 class="arrow">WhoIsHostingThis Hompage Changes</h1>
+            <p>When I initially view the site I'm a little overwhelmed.  There is a lot going on above the fold.  There are two focal points: the logo + statistics slogan and then the search area.  When the user views this for the first time the attention is split between the two, and with the different styles of the two areas it makes for a lack of cohesive design.  The current layout makes it appear as if there are three navbars, or two navbars separated by a page wide logo.  My approach to improving the look and feel of the site would be to simplify the design and draw the user's focus to the main function of the site.  I would try to remove some of the clutter in an effort to improve the UX.  Of course without having access to previously run usability tests and user heatmap data this is all just speculation, but alas for now my opinion (although irrelevant) will have to do.  Below are some of the changes I would make.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="row">
+      <div class="col-md-9">
+        <img src="../img/whois_markup.png" class="img-responsive" alt="Portfolio Item">
+      </div>
+      <div class="col-md-3">
+        <p><font color="red">1. </font>Lets eliminate this first navbar so we can reduce the clutter and simplify the visual stimuli above the fold</p>
+        <p><font color="red">2. </font>there is no need to share with the user how many people are on the site; also tough to tell humans from bots in real time</p>
+        <p><font color="red">3. </font>good CTA to encourage reviews; lets separate it from the navigation and bring it to the focal point of the page (where <font color="red">7</font> is)</p>
+        <p><font color="red">4. </font>solid logo; users are more than accustomed to utilizing a logo in a navbar as a "home" button; no reason to have the "Who Is Hosting This" button right below it (yes, I know it's sticky when you scroll, I'll account for this in my new UI - logo will be in sticky navbar)</p>
+        <p><font color="red">5. </font>once again not much value being provided to user w/ these stats. User wants info most relevant to hosting provider they're going to choose, not how long this site has been around or how full database is - lets declutter here and remove this (if you really want to provide this info we can put it in the "about us" section</p>
+        <p><font color="red">6. </font>use of the word "hosting" is redundant; it's a hosting site, all about hosting - DRY</p>
+        <p><font color="red">7. </font>extremely valuable real estate here; lets ask people to socially vouch for the site after they've used it, not before. Good use of space below to cite press though; gives users confidence in your service; CTA from <font color="red">3</font> is going to go in this space in new design</p>
+      </div>
+    </div>
+
+    <section class="intro text-center section-padding" id="intro">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 wp1">
+            <h1 class="arrow">WhoIsHostingThis New Design Homepage</h1>
+            <p>Here is my proposal of a new design.  The visual aesthetic is more simple, and by removing some of the clutter the user call to action is more evident.  The two navbars have been condensed to one without a loss of functionality, and all of the hover features are still applicable.  Further, the "Earn a free domain for writing a review" button is now front and center which will draw more attention from users and generate more reviews.  The "Read webhosting reviews by real users" text is still visable above the fold but will now be higher because of some of the space removed up top.  My assumption (again, without access to data I cannot be sure) is that the majority of traffic is either landing on this page to search and see who is hosting a domain or to read hosting provider reviews.  This visually simplified layout quickly tells the user what the site does and directs them to search the domain they're looking for or to read reviews by scrolling down or clicking the first link in the navbar.</p>
+
+            <p>(As a sidenote, I hate the font of the navbar as well, but it's Balsamiq's default font and that is what I used for this quick wireframe, obviously I'd never release a navbar with that cartoon font)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="row">
+      <div class="col-md-12">
+        </br>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <img src="../img/whois_new.png" class="img-responsive" alt="Portfolio Item">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        </br>
+        </br>
+        </br>
+      </div>
+    </div>
+
+
+
+
+
+    <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <ul class="legals">
+                  <li><a href="#">Griff Hall</a></li>
+                  <li><a href="#">2014</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6 col-md-offset-1">
+                <a class="ignite-btn">Dream Big. Be Unrealistic.</a>
+              </div>
+          <!-- right side of footer >
+              <div class="col-md-6 credit">
+                <p>Designed &amp; Developed by <a href="http://www.peterfinlan.com/">Peter Finlan</a> exclusively for <a href="http://tympanus.net/codrops/"><em>Codrops</em></a></p>
+              </div>
+          < end right side -->
+            </div>
+          </div>
+        </footer>
+
+<!-- google analytics -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-58032053-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+
+
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/waypoints.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/scripts.js"></script>
+    <script src="../js/jquery.flexslider.js"></script>
+    <script src="../js/modernizr.js"></script>
+  </body>
+</html>
+
